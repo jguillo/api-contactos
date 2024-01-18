@@ -28,7 +28,7 @@ Para empezar a usar esta API necesitas una clave que tendrás que incluir en la 
 
 Los desarrolladores que quieran usar la API pueden crear una clave de API en el [formulario de registro de clave API](registro.php)
 
-**ATENCIÓN**: La página de registro de claves API no tiene ningún mecanismo de seguridad y cualquiera puede crear una clave de API. Si publicas esta API es recomendable vigilar que las claves creadas pertenecen a los alumnos y borrar los datos periódicamente. 
+**ATENCIÓN**: La página de registro de claves API no tiene ningún mecanismo de seguridad y cualquiera puede crear una clave de API. Si publicas esta API es recomendable vigilar que las claves creadas pertenecen a los usuarios previstos y borrar los datos periódicamente. 
 
 ## Cuentas de usuario y autorizaciones
 
@@ -87,6 +87,8 @@ El valor de la cabecera X-Auth no es válido o no existe en la BD
 
 
 ## Operaciones de API
+
+La [página index.php](index.php) muestra la documentación completa para los usuarios que vayan a utilizar la API.
 
 ### POST login.php
 
@@ -296,4 +298,3 @@ Eliminar contacto
 - 404 - El contacto no existe o no pertenece al usuario
 
 
-La [página index.php](index.php) muestra la documentación completa para los usuarios que vayan a utilizar la API.
